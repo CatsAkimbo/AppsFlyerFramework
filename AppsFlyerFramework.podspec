@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '11.0'
 
-    s.ios.frameworks = 'AdSupport', 'iAd', 'Security', 'SystemConfiguration', 'CoreTelephony'
+    s.frameworks = 'AdSupport', 'iAd', 'Security', 'SystemConfiguration', 'CoreTelephony'
 
-    s.ios.preserve_paths = 'Mac Catalyst/AppsFlyerLib.xcframework'
-    s.ios.vendored_frameworks = 'Mac Catalyst/AppsFlyerLib.xcframework'
+    s.preserve_paths = 'Mac Catalyst/AppsFlyerLib.xcframework'
+    s.vendored_frameworks = 'Mac Catalyst/AppsFlyerLib.xcframework'
 end
